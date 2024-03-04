@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url(https://c4.wallpaperflare.com/wallpaper/698/479/758/money-cash-bills-wallpaper-preview.jpg)
+}
+
+.wrapper {
+    background-color: #030408;
+    padding: 30px;
+    border-radius: 20px;
+    width: 30%;
+}
+
+.wrapper header {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 2px;
+    color:white;
+}
+
+.wrapper form {
+    margin: 40px 0 20px 0;
+    color: #FFFFFD;
+}
+
+form :where(input, select, button) {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+form p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+form input {
+    border: 1px solid wheat;
+    padding: 0 15px;
+    font-size: 17px;
+    height: 50px;
+}
+
+form input:focus {
+    padding: 0 14px;
+    border: 2px solid blue;
+}
+
+form .drop-list {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+form .drop-list select{
+    color:rgba(216, 175, 27, 0.948);
+background: transparent;
+}
+
+
+.drop-list .select-box {
+    display: flex;
+    height: 45px;
+    width: 115px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #ecf0f0;
+}
+
+.drop-list .select-box img {
+    max-width: 25px;
+}
+
+.drop-list .icon {
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 30px;
+    background: blue;
+    border-radius: 2px;
+    border: 7px solid blue;
+}
+
+.form .exchange-rate {
+    font-size: 17px;
+    margin: 20px 0 30px;
+}
+
+form button {
+    height: 52px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: blue;
+    margin: 20px 0;
+}
